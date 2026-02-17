@@ -1,5 +1,4 @@
-# 🚩 Week 1: Linear Data Structure (Part 1)
-> 배열의 물리적 한계를 이해하고, 동적 배열(ArrayList)을 직접 설계 및 구현합니다.
+
 
 ## 📅 Day 1: ArrayList의 설계와 최적화
 

@@ -8,12 +8,12 @@
 ---
 
 ## 📅 Curriculum & Progress
-| 주차 | 주제 | 핵심 자료구조 (Implementation & Docs) | 상태 |
-| :-- | :--- | :--- | :---: |
+| 주차 | 주제 | 핵심 자료구조 (Implementation & Docs)                                                                                                  | 상태 |
+| :-- | :--- |:---------------------------------------------------------------------------------------------------------------------------------| :---: |
 | **Week 1** | **Linear Data** | [ArrayList](./src/week1/arraylist), [LinkedList](./src/week1/linkedlist), [Stack](./src/week1/stack), [Queue](./src/week1/queue) | ✅ 완료 |
-| **Week 2** | **Hash & Search** | HashMap, HashSet, PriorityQueue | ⚪ 대기 |
-| **Week 3** | **Non-Linear** | Tree, Graph, DFS, BFS | ⚪ 대기 |
-| **Week 4** | **Optimization** | Trie, Sorting, 최적화 기법 | ⚪ 대기 |
+| **Week 2** | **Hash & Search** | [HashMap](./src/week2/hashMap), HashSet, PriorityQueue                                                                           | ⚪ 대기 |
+| **Week 3** | **Non-Linear** | Tree, Graph, DFS, BFS                                                                                                            | ⚪ 대기 |
+| **Week 4** | **Optimization** | Trie, Sorting, 최적화 기법                                                                                                            | ⚪ 대기 |
 
 ---
 

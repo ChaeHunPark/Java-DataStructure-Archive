@@ -30,7 +30,7 @@ public class MyHashMap<K, V> {
         return (key == null) ? 0 : Math.abs(key.hashCode() % table.length);
     }
 
-    public void put(K key, V value) {
+    public V put(K key, V value) {
 
         // 1. 데이터를 넣기 전이나 후에 현재 size를 체크
         if (size >= table.length * 0.75) {
@@ -44,7 +44,7 @@ public class MyHashMap<K, V> {
             // 1. 해당 인덱스가 비어 있으면 바로 저장
             table[index] = newNode;
             size++;
-
+            return null; // 기존 값이 없었으므로 null 반환
         }else {
             // 2. (충돌 발생시)
             Node<K, V> curr = table[index];
@@ -52,22 +52,22 @@ public class MyHashMap<K, V> {
 
             while (true){
                 if(curr.key.equals(key)) {
+                    V oldValue = curr.value;
                     curr.value = value; // 새로운 값으로 업데이트
-                    return; // size를 늘리지 않고 종료
+                    return oldValue; // 기존 값을 반환(
                 }
 
                 // 다음 노드가 없으면 맨 끝에 연결
                 if(curr.next == null) {
                     curr.next = newNode;
                     size++;
-                    break;
+                    return null; // 새로 추가 되었으므로 null 반환
                 }
 
                 curr = curr.next;
             }
 
         }
-        size++;
     }
 
     public V get(K key){

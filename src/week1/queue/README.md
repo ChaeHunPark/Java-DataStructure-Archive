@@ -1,4 +1,4 @@
-## 📅 Day 3: Queue (큐) - 선입선출(FIFO)의 설계
+## 📅 Week 1-3: Queue (큐) - 선입선출(FIFO)의 설계
 
 ### 1. 핵심 개념 리마인드
 * **FIFO (First-In-First-Out)**: 가장 먼저 들어온 데이터가 가장 먼저 나가는 대기열 구조.

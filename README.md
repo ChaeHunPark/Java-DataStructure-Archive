@@ -2,7 +2,7 @@
 > **"기본기를 다시 설계하고, 최적의 효율을 고민하다"** > 자바를 주 언어로 사용하여 자료구조의 내부 원리를 밑바닥부터 구현하고 기록하는 저장소입니다.
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Progress](https://img.shields.io/badge/Progress-50%25-blue?style=for-the-badge)](https://github.com/)
+[![Progress](https://img.shields.io/badge/Progress-65%25-green?style=for-the-badge)](https://github.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
@@ -12,7 +12,7 @@
 | :-- | :--- | :--- | :---: |
 | **Week 1** | **Linear Data** | [ArrayList](./src/week1/arrayList), [LinkedList](./src/week1/linkedList), [Stack](./src/week1/stack), [Queue](./src/week1/queue) | ✅ 완료 |
 | **Week 2** | **Hash & Search** | [HashMap](./src/week2/hashMap), [HashSet](./src/week2/hashSet), [PriorityQueue](./src/week2/priorityQueue) | ✅ 완료 |
-| **Week 3** | **Non-Linear** | Tree, Graph, DFS, BFS | 🏗️ 진행 |
+| **Week 3** | **Non-Linear** | [Tree (BST)](./src/week3/tree), Graph, DFS, BFS | 🏗️ 진행 |
 | **Week 4** | **Optimization** | Trie, Sorting, 최적화 기법 | ⚪ 대기 |
 
 ---
@@ -41,6 +41,13 @@
 | **HashMap** | Separate Chaining | $O(1)$ | 해시 함수 기반 인덱스 매핑 및 충돌 해결 |
 | **HashSet** | Composition | $O(1)$ | HashMap의 Key 특징을 이용한 중복 제거 |
 | **PriorityQueue**| Min-Heap | $O(\log n)$ | 이진 트리 구조 기반의 실시간 서열 정리 |
+
+### [Week 3] Non-Linear & Search (In Progress)
+| Data Structure | Implementation Key | Time Complexity | Logic |
+| :--- | :--- | :---: | :--- |
+| **BST (Tree)** | Recursive Successor | $O(\log n)$ | 엄격한 좌우 정렬 및 재귀적 삭제(후계자 전략) |
+| **Graph** | Matrix / List | - | (TBD) 정점 간의 관계 및 연결성 표현 |
+| **DFS/BFS** | Stack / Queue | - | (TBD) 비선형 구조의 완전 탐색 및 경로 최적화 |
 
 ---
 

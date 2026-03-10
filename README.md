@@ -2,7 +2,7 @@
 > **"기본기를 다시 설계하고, 최적의 효율을 고민하다"** > 자바를 주 언어로 사용하여 자료구조의 내부 원리를 밑바닥부터 구현하고 기록하는 저장소입니다.
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Progress](https://img.shields.io/badge/Progress-75%25-green?style=for-the-badge)](https://github.com/)
+[![Progress](https://img.shields.io/badge/Progress-85%25-green?style=for-the-badge)](https://github.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
@@ -13,7 +13,7 @@
 | **Week 1** | **Linear Data** | [ArrayList](./src/week1/arrayList), [LinkedList](./src/week1/linkedList), [Stack](./src/week1/stack), [Queue](./src/week1/queue) | ✅ 완료 |
 | **Week 2** | **Hash & Search** | [HashMap](./src/week2/hashMap), [HashSet](./src/week2/hashSet), [PriorityQueue](./src/week2/priorityQueue) | ✅ 완료 |
 | **Week 3** | **Non-Linear** | [Tree (BST)](./src/week3/tree), [Graph (Matrix/List)](./src/week3/graph), [DFS/BFS](./src/week3/graph) | ✅ 완료 |
-| **Week 4** | **Optimization** | Trie, Sorting, 최적화 기법 | 🏗️ 진행 |
+| **Week 4** | **Optimization** | [Trie (Prefix Tree)](./src/week4/trie), Sorting, 최적화 기법 | 🏗️ 진행 |
 
 ---
 
@@ -48,6 +48,12 @@
 | **BST (Tree)** | Recursive Successor | $O(\log n)$ | 엄격한 좌우 정렬 및 재귀적 삭제(후계자 전략) |
 | **Graph** | Adjacency List | $O(V + E)$ | 연결된 정점만 관리하여 메모리 및 탐색 효율 최적화 |
 | **DFS/BFS** | Stack / Queue | $O(V + E)$ | 비선형 구조의 완전 탐색 및 최단 경로 최적화 |
+
+### [Week 4] Optimization & String
+| Data Structure | Implementation Key | Time Complexity | Logic |
+| :--- | :--- | :---: | :--- |
+| **Trie** | Prefix Sharing | $O(L)$ | 문자열 접두사 공유 및 재귀적 노드 철거(Backtracking) |
+| **Sorting** | TBD | - | 진행 시 업데이트 예정 |
 
 ---
 

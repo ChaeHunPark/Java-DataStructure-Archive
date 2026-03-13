@@ -75,7 +75,7 @@ public class MyTrie {
             return isEmpty(current);
         }
 
-        // 2. 내려가는 과정
+        // 2. 내려가는 과정, word의 첫 글자를 char -> int형으로 바꿈
         char c = word.charAt(index);
         int charIndex = c - 'a';
         TrieNode node = current.children[charIndex];

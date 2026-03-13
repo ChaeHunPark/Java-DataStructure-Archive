@@ -2,7 +2,7 @@
 > **"기본기를 다시 설계하고, 최적의 효율을 고민하다"** > 자바를 주 언어로 사용하여 자료구조의 내부 원리를 밑바닥부터 구현하고 기록하는 저장소입니다.
 
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![Progress](https://img.shields.io/badge/Progress-85%25-green?style=for-the-badge)](https://github.com/)
+[![Progress](https://img.shields.io/badge/Progress-100%25-brightgreen?style=for-the-badge)](https://github.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
@@ -13,7 +13,7 @@
 | **Week 1** | **Linear Data** | [ArrayList](./src/week1/arrayList), [LinkedList](./src/week1/linkedList), [Stack](./src/week1/stack), [Queue](./src/week1/queue) | ✅ 완료 |
 | **Week 2** | **Hash & Search** | [HashMap](./src/week2/hashMap), [HashSet](./src/week2/hashSet), [PriorityQueue](./src/week2/priorityQueue) | ✅ 완료 |
 | **Week 3** | **Non-Linear** | [Tree (BST)](./src/week3/tree), [Graph (Matrix/List)](./src/week3/graph), [DFS/BFS](./src/week3/graph) | ✅ 완료 |
-| **Week 4** | **Optimization** | [Trie (Prefix Tree)](./src/week4/trie), Sorting, 최적화 기법 | 🏗️ 진행 |
+| **Week 4** | **Optimization** | [Trie (Prefix Tree)](./src/week4/trie), [Sorting (5종 정렬)](./src/week4/sorting) | ✅ 완료 |
 
 ---
 
@@ -53,7 +53,8 @@
 | Data Structure | Implementation Key | Time Complexity | Logic |
 | :--- | :--- | :---: | :--- |
 | **Trie** | Prefix Sharing | $O(L)$ | 문자열 접두사 공유 및 재귀적 노드 철거(Backtracking) |
-| **Sorting** | TBD | - | 진행 시 업데이트 예정 |
+| **Sorting** | Quick / Merge | $O(n \log n)$ | **Partition(편 가르기)** 및 **Divide & Conquer**를 통한 정렬 최적화 |
+| **Sorting (기초)**| Bubble/Select/Insert| $O(n^2)$ | 인덱스 기반의 비교 및 교체 중심의 정렬 메커니즘 학습 |
 
 ---
 
@@ -61,6 +62,7 @@
 - [**WEEK 1: 선형 자료구조 전체 요약 리포트**](./src/week1/README.md)
 - [**WEEK 2: 해시 & 우선순위 전체 요약 리포트**](./src/week2/README.md)
 - [**WEEK 3: 비선형 & 그래프 탐색 전체 요약 리포트**](./src/week3/README.md)
+- [**WEEK 4: 최적화 & 정렬 알고리즘 전체 요약 리포트**](./src/week4/README.md)
 - [시간 복잡도($O$) 요약 가이드](./complexity_table.md)
 
 ---

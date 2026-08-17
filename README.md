@@ -63,7 +63,6 @@
 - [**WEEK 2: 해시 & 우선순위 전체 요약 리포트**](./src/week2/README.md)
 - [**WEEK 3: 비선형 & 그래프 탐색 전체 요약 리포트**](./src/week3/README.md)
 - [**WEEK 4: 최적화 & 정렬 알고리즘 전체 요약 리포트**](./src/week4/README.md)
-- [시간 복잡도($O$) 요약 가이드](./complexity_table.md)
 
 ---
 © 2026 DataStructure Study. All rights reserved.
